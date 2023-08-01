@@ -125,11 +125,35 @@ ul {
 }
 
 .nav-links {
-    flex-basis: 750px;
+    flex-basis: 730px;
 }
 
 .nav-links ul{
     justify-content: end;
     gap: 40px;
 
+}
+
+/* header section */
+header {
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-section {
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left {
+    max-width: 40vw;
+}
+.header-left p {
+    margin-top: 10px;
+}
+.header-left .primary-btn {
+    margin-top: 25px;
+}
+
+.header-right img {
+    width: 600px;
 }

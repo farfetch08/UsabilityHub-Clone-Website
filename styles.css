@@ -177,3 +177,17 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+/* feature section */
+
+.features-section {
+    padding: 80px var(--padding-inline-section) 0;
+}
+
+.features-header {
+    text-align: center;
+}
+
+.features-header h2 {
+    margin-bottom: 20px;
+}
